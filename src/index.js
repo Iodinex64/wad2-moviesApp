@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import HomePage from "../pages/homePage";
-import MoviePage from "../pages/movieDetailsPage";
+import HomePage from "./pages/homePage";
+import MoviePage from "./pages/movieDetailsPage";
 
 const sample = {
   adult: false,

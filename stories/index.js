@@ -6,6 +6,7 @@ import FilterControls from "../src/components/filterControls";
 import MovieList from "../src/components/movieList";
 import MovieDetails from "../src/components/movieDetails";
 import MovieHeader from "../src/components/headerMovie";
+import MoviesHeader from "../src/components/headerMovieList";
 
 const sample = {
   adult: false,
@@ -110,4 +111,8 @@ storiesOf("Movie Details Page/MovieDetails", module).add("default", () => (
 
 storiesOf("Movie Details Page/MovieHeader", module).add("default", () => (
   <MovieHeader movie={sample} />
+));
+
+storiesOf("Home Page/Header", module).add("default", () => (
+  <MoviesHeader numMovies={10} />
 ));
