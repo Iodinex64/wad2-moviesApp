@@ -16,5 +16,5 @@ const ReviewButton = ({ movie }) => {
     </Link>
   );
 };
-
+  
 export default ReviewButton;
