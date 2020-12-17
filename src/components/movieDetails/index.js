@@ -61,6 +61,18 @@ export default ({ movie }) => {
           </li>
         ))}
       </ul>
+      <li key="ruh" className="list-group-item list-group-item-dark">
+          Popularity
+        </li>
+        <li key="rut" className="list-group-item ">
+          {movie.popularity}
+        </li>
+        <li key="ruh" className="list-group-item list-group-item-dark">
+          Original Language
+        </li>
+        <li key="rut" className="list-group-item ">
+          {movie.original_language}
+        </li>
     </>
   );
 };
