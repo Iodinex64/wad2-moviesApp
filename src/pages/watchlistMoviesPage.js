@@ -5,10 +5,10 @@ import {MoviesContext} from '../contexts/moviesContext'
 
 const WatchlistMoviesPage = props => {
   const context = useContext(MoviesContext);
-  const watchlisted = context.movies.filter( m => m.watchlist )
+  const watchlist = context.upcoming.filter( m => m.watchlist )
   return (
     <MovieListPageTemplate
-      movies={watchlisted}
+      movies={watchlist}
       title={"Watchlisted Movies"}
       action={movie => <AddReviewButton movie={movie} />}
     />
