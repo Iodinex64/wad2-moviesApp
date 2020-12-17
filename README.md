@@ -40,19 +40,11 @@ Name: Sean Duggan
 + etc.
 + etc.
 
-### Data hyperlinking.
-
-.... Use screenshots to illustrate where data hyperlinking is present in your views - include captions.
-
 ![][cardLink]
 > Clicking a card causes the display of that movie's details.
 
 ![][reviewLink]
 >Clicking the 'Full Review' for a review extract will display the full text of the review
-
-## Independent learning (If relevant).
-
-. . . . . Briefly mention each technologies/techniques used in your project codebase that were not covered in the lectures/labs. Provide source code filename references to support your assertions and include reference material links (articles/blogs).
 
 ---------------------------------
 
