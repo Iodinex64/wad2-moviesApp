@@ -2,10 +2,7 @@
 
 Name: Sean Duggan
 
-## Features.
-
-...... A bullet-point list of the ADDITIONAL user features you have implemented for the  Movies Fan app ......,
- 
+## Features. 
  + New views: Top Rated, Now Playing, Watchlist
  + New TMDB endpoints: getTopRatedMovies, getNowPlayingMovies, getMovieProviders, getMovieCredits
  + Extra details on movie details pages: Popularity and original language
@@ -13,24 +10,16 @@ Name: Sean Duggan
 
 ## Setup requirements (If required).
 
-...... A brief explanation of any non-standard setup steps necessary to run your app/client locally (after cloning the repo) ........
++ download and unzip repo in a directory of your choice
++ run command "npm install" from folder
 
 ## API Data Model.
-
-..... List the additional TMDB endpoints used in your assignment, e.g.
-
 + https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1 - gets a list of the top rated movies
 + https://api.themoviedb.org/3/movie/now_playing?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1 - gets a list of movies that are currently playing in cinemas now
 + https://api.themoviedb.org/3/movie/${id}/watch/providers?api_key=${process.env.REACT_APP_TMDB_KEY} - gets a movie's providers, where one could buy the movie
 + https://api.themoviedb.org/3/movie/${id}/credits?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US - gets a movie's credits information
 
 ## App Design.
-
-### Component catalogue (If required).
-
-....... Insert a screenshot from the Storybook UI, hi-light stories relating to new/modified components you developed - see example screenshot below] .......
-
-![][stories]
 
 ### UI Design.
 
