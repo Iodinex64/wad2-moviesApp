@@ -12,6 +12,7 @@ Name: Sean Duggan
 
 + download and unzip repo in a directory of your choice
 + run command "npm install" from folder
++ (note that sometimes when first loading the app, it might give an error. Refreshing the browser fixes this.)
 
 ## API Data Model.
 + https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1 - gets a list of the top rated movies
