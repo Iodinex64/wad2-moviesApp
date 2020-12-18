@@ -12,6 +12,7 @@ Name: Sean Duggan
 
 + download and unzip repo in a directory of your choice
 + run command "npm install" from folder
++ (note that sometimes when first loading the app, it might give an error. Refreshing the browser fixes this.)
 
 ## API Data Model.
 + https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1 - gets a list of the top rated movies
@@ -35,10 +36,11 @@ Name: Sean Duggan
 
 ...... Insert a list of the additional routes supported by your Movies Fan app. If relevant, specify which of the routes require authentication, i.e. protected/private.
 
-+ /movies/favorites (protected) - displays the user's favorite movies selection.
-+ /reviews/:id (public) - displays the full text of a movie review.
-+ etc.
-+ etc.
++ /movies/favorites - displays the user's favorite movies selection.
++ /reviews/:id - displays the full text of a movie review.
++ /movies/watchlist - displays watchlisted movies.
++ /movies/upcoming - displays upcoming movies.
++ /movies/toprated - displays top rated movies.
 
 ![][cardLink]
 > Clicking a card causes the display of that movie's details.
@@ -54,3 +56,7 @@ Name: Sean Duggan
 [reviewLink]: ./public/reviewLink.png
 [cardLink]: ./public/cardLink.png
 [stories]: ./public/storybook.png
+
+## Known Bugs
++ Adding movies to the watchlist and then refreshing the browser window can cause an error and the app must be restarted
++ Sometimes when first loading the app, it might give an error. Refreshing the browser can fix this.
